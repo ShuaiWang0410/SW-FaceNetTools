@@ -1,5 +1,5 @@
 import os
-source_roots = "/home/ubuntu/ShuaiWang/sw-face-net/facene"
+source_roots = "/home/ubuntu/ShuaiWang/sw-face-net/facenet"
 def find_all_source_roots(path):
     items = os.listdir(path)
 
