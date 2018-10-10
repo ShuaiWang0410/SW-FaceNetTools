@@ -1,6 +1,6 @@
 import os
 source_roots = "/home/ubuntu/ShuaiWang/sw-face-net/facenet"
-paths = ":"
+paths = ": "
 #source_roots = "/Users/gm-vv-ang/Documents/UBCSE/courses/2018 FALL/CSE 676/Projects/facenet/"
 ignores = ["data", ".idea", ".git", ".project", ".pydevproject", ".DS_Store", ".pylintrc"]
 def find_all_source_roots(path):
