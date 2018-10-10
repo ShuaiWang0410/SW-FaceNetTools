@@ -9,7 +9,7 @@ def find_all_source_roots(path):
         if not os.path.isfile(absulute_path):
             source_roots += absulute_path + ":"
             find_all_source_roots(absulute_path)
-
+    print(source_roots[:-1])
 find_all_source_roots(source_roots)
 
 
