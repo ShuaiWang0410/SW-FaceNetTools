@@ -4,7 +4,7 @@ cur_people = 0
 total_people = 0
 select_people = 1000
 folders_list = []
-source = '/Volumes/新加卷/CASIA-WebFace'
+source = '~/CASIA-WebFace-Align-1000People'
 dist = '/Volumes/新加卷/CASIA-WebFace-Refine'
 
 def count_folder(path):
