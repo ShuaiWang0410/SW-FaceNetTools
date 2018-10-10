@@ -6,6 +6,8 @@ def find_all_source_roots(path):
 
     global source_roots
     for i in items:
+        if i in ignores:
+            continue
         absulute_path = os.path.join(path, i)
         if not os.path.isfile(absulute_path):
             source_roots += absulute_path + ":"
