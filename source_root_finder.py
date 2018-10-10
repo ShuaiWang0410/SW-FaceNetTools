@@ -1,5 +1,6 @@
 import os
 source_roots = "/home/ubuntu/ShuaiWang/sw-face-net/facenet"
+ignores = ["data"]
 def find_all_source_roots(path):
     items = os.listdir(path)
 
