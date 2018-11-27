@@ -1,5 +1,5 @@
 import os
-source_roots = "/home/ubuntu/ShuaiWang/sw-face-net/facenet"
+source_roots = "/home/ec2-user/project2/facenet"
 paths = ":"
 #source_roots = "/Users/gm-vv-ang/Documents/UBCSE/courses/2018 FALL/CSE 676/Projects/facenet/"
 ignores = ["data", ".idea", ".git", ".project", ".pydevproject", ".DS_Store", ".pylintrc"]

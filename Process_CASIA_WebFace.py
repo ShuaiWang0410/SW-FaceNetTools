@@ -4,7 +4,8 @@ cur_people = 0
 total_people = 0
 select_people = 1000
 folders_list = []
-source = '/home/ubuntu/CASIA-WebFace-Align-1000People'
+source = '/home/ec2-user/output_align'
+#source = '/home/ubuntu/CASIA-WebFace-Align-1000People'
 dist = ''
 
 def count_folder(path):
@@ -21,7 +22,9 @@ def count_images(path):
         if select_people == k:
             break
         sourceDir = os.path.join(path, i)
+        if (os.path.isfile(sourceDir)): continue
         files = os.listdir(sourceDir)
+        print(len(files))
         if len(files) < 40:
             print(i + " < 40")
         k += 1
